@@ -1,0 +1,6 @@
+I’ve always setup a new CakePHP project by extracting the current stable build into a project directory and editing the core.php and database.php files manually. I usually then change to the /cake/console directory of the project and run php cake.php bake (having already installed the php-cli) to bake my code.
+
+I know there are other ways to make this process simpler but its always just worked for me and I am usually to lazy/busy/unmotivated to try something new.
+I know there are other ways to make this process simpler but its always just worked for me and I am usually to lazy/busy/unmotivated to try something new.
+
+Today, however, I stumbled across a great way to set up CakePHP in Ubuntu so that building new projects is a simple matter of running one line from the command line and you are ensured of using the same stable “shell” version of Cake each time. It is also extremely easy to upgrade your “shell” version whenever you want. (It also makes baking even easier than the way I was doing it but that’s just an added bonus !)

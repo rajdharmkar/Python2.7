@@ -1,0 +1,5 @@
+pswd = 'apeman'
+if pswd == 'orangutan':
+        print('Logging in ...')
+else:# if and else should be indented as same level
+        print('Incorrect password.')
